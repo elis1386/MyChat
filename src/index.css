@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.messages{
+    height: calc(100% - 130px);
+}
+.owner{
+    flex-direction: row-reverse;
+}
+.owner p{
+    background-color: rgb(167, 139, 250);
+    color: white;
+    border-radius: 10px 0 10px 10px;
+}
+.owner article{
+    align-items: flex-end;
+}
